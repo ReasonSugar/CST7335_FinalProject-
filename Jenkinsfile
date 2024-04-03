@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'your-build-script.sh'
+                sh 'Jenkinsfile.sh'
             }
         }
     }
